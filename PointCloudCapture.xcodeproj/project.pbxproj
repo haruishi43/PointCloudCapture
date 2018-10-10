@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15FF5F6E216DA9090096BD77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF5F6D216DA9090096BD77 /* AppDelegate.swift */; };
+		15FF5F70216DA9090096BD77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF5F6F216DA9090096BD77 /* ViewController.swift */; };
+		15FF5F73216DA9090096BD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FF5F71216DA9090096BD77 /* Main.storyboard */; };
+		15FF5F75216DA90C0096BD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FF5F74216DA90C0096BD77 /* Assets.xcassets */; };
+		15FF5F78216DA90C0096BD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FF5F76216DA90C0096BD77 /* LaunchScreen.storyboard */; };
+		15FF5F83216DA90C0096BD77 /* PointCloudCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF5F82216DA90C0096BD77 /* PointCloudCaptureTests.swift */; };
+		15FF5F8E216DA90C0096BD77 /* PointCloudCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF5F8D216DA90C0096BD77 /* PointCloudCaptureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15FF5F7F216DA90C0096BD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15FF5F62216DA9090096BD77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15FF5F69216DA9090096BD77;
+			remoteInfo = PointCloudCapture;
+		};
+		15FF5F8A216DA90C0096BD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15FF5F62216DA9090096BD77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15FF5F69216DA9090096BD77;
+			remoteInfo = PointCloudCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15FF5F6A216DA9090096BD77 /* PointCloudCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointCloudCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FF5F6D216DA9090096BD77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15FF5F6F216DA9090096BD77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15FF5F72216DA9090096BD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15FF5F74216DA90C0096BD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15FF5F77216DA90C0096BD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15FF5F79216DA90C0096BD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FF5F7E216DA90C0096BD77 /* PointCloudCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointCloudCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FF5F82216DA90C0096BD77 /* PointCloudCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudCaptureTests.swift; sourceTree = "<group>"; };
+		15FF5F84216DA90C0096BD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FF5F89216DA90C0096BD77 /* PointCloudCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointCloudCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FF5F8D216DA90C0096BD77 /* PointCloudCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudCaptureUITests.swift; sourceTree = "<group>"; };
+		15FF5F8F216DA90C0096BD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FF5F67216DA9090096BD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FF5F7B216DA90C0096BD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FF5F86216DA90C0096BD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FF5F61216DA9090096BD77 = {
+			isa = PBXGroup;
+			children = (
+				15FF5F6C216DA9090096BD77 /* PointCloudCapture */,
+				15FF5F81216DA90C0096BD77 /* PointCloudCaptureTests */,
+				15FF5F8C216DA90C0096BD77 /* PointCloudCaptureUITests */,
+				15FF5F6B216DA9090096BD77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15FF5F6B216DA9090096BD77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15FF5F6A216DA9090096BD77 /* PointCloudCapture.app */,
+				15FF5F7E216DA90C0096BD77 /* PointCloudCaptureTests.xctest */,
+				15FF5F89216DA90C0096BD77 /* PointCloudCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FF5F6C216DA9090096BD77 /* PointCloudCapture */ = {
+			isa = PBXGroup;
+			children = (
+				15FF5F6D216DA9090096BD77 /* AppDelegate.swift */,
+				15FF5F6F216DA9090096BD77 /* ViewController.swift */,
+				15FF5F71216DA9090096BD77 /* Main.storyboard */,
+				15FF5F74216DA90C0096BD77 /* Assets.xcassets */,
+				15FF5F76216DA90C0096BD77 /* LaunchScreen.storyboard */,
+				15FF5F79216DA90C0096BD77 /* Info.plist */,
+			);
+			path = PointCloudCapture;
+			sourceTree = "<group>";
+		};
+		15FF5F81216DA90C0096BD77 /* PointCloudCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				15FF5F82216DA90C0096BD77 /* PointCloudCaptureTests.swift */,
+				15FF5F84216DA90C0096BD77 /* Info.plist */,
+			);
+			path = PointCloudCaptureTests;
+			sourceTree = "<group>";
+		};
+		15FF5F8C216DA90C0096BD77 /* PointCloudCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15FF5F8D216DA90C0096BD77 /* PointCloudCaptureUITests.swift */,
+				15FF5F8F216DA90C0096BD77 /* Info.plist */,
+			);
+			path = PointCloudCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15FF5F69216DA9090096BD77 /* PointCloudCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FF5F92216DA90C0096BD77 /* Build configuration list for PBXNativeTarget "PointCloudCapture" */;
+			buildPhases = (
+				15FF5F66216DA9090096BD77 /* Sources */,
+				15FF5F67216DA9090096BD77 /* Frameworks */,
+				15FF5F68216DA9090096BD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PointCloudCapture;
+			productName = PointCloudCapture;
+			productReference = 15FF5F6A216DA9090096BD77 /* PointCloudCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15FF5F7D216DA90C0096BD77 /* PointCloudCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FF5F95216DA90C0096BD77 /* Build configuration list for PBXNativeTarget "PointCloudCaptureTests" */;
+			buildPhases = (
+				15FF5F7A216DA90C0096BD77 /* Sources */,
+				15FF5F7B216DA90C0096BD77 /* Frameworks */,
+				15FF5F7C216DA90C0096BD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15FF5F80216DA90C0096BD77 /* PBXTargetDependency */,
+			);
+			name = PointCloudCaptureTests;
+			productName = PointCloudCaptureTests;
+			productReference = 15FF5F7E216DA90C0096BD77 /* PointCloudCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15FF5F88216DA90C0096BD77 /* PointCloudCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FF5F98216DA90C0096BD77 /* Build configuration list for PBXNativeTarget "PointCloudCaptureUITests" */;
+			buildPhases = (
+				15FF5F85216DA90C0096BD77 /* Sources */,
+				15FF5F86216DA90C0096BD77 /* Frameworks */,
+				15FF5F87216DA90C0096BD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15FF5F8B216DA90C0096BD77 /* PBXTargetDependency */,
+			);
+			name = PointCloudCaptureUITests;
+			productName = PointCloudCaptureUITests;
+			productReference = 15FF5F89216DA90C0096BD77 /* PointCloudCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15FF5F62216DA9090096BD77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Haruya Ishikawa";
+				TargetAttributes = {
+					15FF5F69216DA9090096BD77 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					15FF5F7D216DA90C0096BD77 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 15FF5F69216DA9090096BD77;
+					};
+					15FF5F88216DA90C0096BD77 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 15FF5F69216DA9090096BD77;
+					};
+				};
+			};
+			buildConfigurationList = 15FF5F65216DA9090096BD77 /* Build configuration list for PBXProject "PointCloudCapture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15FF5F61216DA9090096BD77;
+			productRefGroup = 15FF5F6B216DA9090096BD77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15FF5F69216DA9090096BD77 /* PointCloudCapture */,
+				15FF5F7D216DA90C0096BD77 /* PointCloudCaptureTests */,
+				15FF5F88216DA90C0096BD77 /* PointCloudCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FF5F68216DA9090096BD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FF5F78216DA90C0096BD77 /* LaunchScreen.storyboard in Resources */,
+				15FF5F75216DA90C0096BD77 /* Assets.xcassets in Resources */,
+				15FF5F73216DA9090096BD77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FF5F7C216DA90C0096BD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FF5F87216DA90C0096BD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FF5F66216DA9090096BD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FF5F70216DA9090096BD77 /* ViewController.swift in Sources */,
+				15FF5F6E216DA9090096BD77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FF5F7A216DA90C0096BD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FF5F83216DA90C0096BD77 /* PointCloudCaptureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FF5F85216DA90C0096BD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FF5F8E216DA90C0096BD77 /* PointCloudCaptureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15FF5F80216DA90C0096BD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15FF5F69216DA9090096BD77 /* PointCloudCapture */;
+			targetProxy = 15FF5F7F216DA90C0096BD77 /* PBXContainerItemProxy */;
+		};
+		15FF5F8B216DA90C0096BD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15FF5F69216DA9090096BD77 /* PointCloudCapture */;
+			targetProxy = 15FF5F8A216DA90C0096BD77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15FF5F71216DA9090096BD77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FF5F72216DA9090096BD77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15FF5F76216DA90C0096BD77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FF5F77216DA90C0096BD77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15FF5F90216DA90C0096BD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15FF5F91216DA90C0096BD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15FF5F93216DA90C0096BD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92XM86FGH;
+				INFOPLIST_FILE = PointCloudCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PointCloudCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15FF5F94216DA90C0096BD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92XM86FGH;
+				INFOPLIST_FILE = PointCloudCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PointCloudCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15FF5F96216DA90C0096BD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92XM86FGH;
+				INFOPLIST_FILE = PointCloudCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PointCloudCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointCloudCapture.app/PointCloudCapture";
+			};
+			name = Debug;
+		};
+		15FF5F97216DA90C0096BD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92XM86FGH;
+				INFOPLIST_FILE = PointCloudCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PointCloudCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointCloudCapture.app/PointCloudCapture";
+			};
+			name = Release;
+		};
+		15FF5F99216DA90C0096BD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92XM86FGH;
+				INFOPLIST_FILE = PointCloudCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PointCloudCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PointCloudCapture;
+			};
+			name = Debug;
+		};
+		15FF5F9A216DA90C0096BD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92XM86FGH;
+				INFOPLIST_FILE = PointCloudCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PointCloudCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PointCloudCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FF5F65216DA9090096BD77 /* Build configuration list for PBXProject "PointCloudCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FF5F90216DA90C0096BD77 /* Debug */,
+				15FF5F91216DA90C0096BD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FF5F92216DA90C0096BD77 /* Build configuration list for PBXNativeTarget "PointCloudCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FF5F93216DA90C0096BD77 /* Debug */,
+				15FF5F94216DA90C0096BD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FF5F95216DA90C0096BD77 /* Build configuration list for PBXNativeTarget "PointCloudCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FF5F96216DA90C0096BD77 /* Debug */,
+				15FF5F97216DA90C0096BD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FF5F98216DA90C0096BD77 /* Build configuration list for PBXNativeTarget "PointCloudCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FF5F99216DA90C0096BD77 /* Debug */,
+				15FF5F9A216DA90C0096BD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15FF5F62216DA9090096BD77 /* Project object */;
+}
